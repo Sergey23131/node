@@ -24,7 +24,6 @@ const sortPeople = (gender, currentLink, futureLink) => {
                 fs.rename(curr, future, err3 => {
                     if (err3) {
                         console.log(err3);
-                        return;
                     }
                 })
             }
